@@ -1,0 +1,118 @@
+﻿komcode;komname;unemployment
+000;Hele landet;2.7
+084;Region Hovedstaden;2.9
+01;Landsdel Byen København;3.4
+101;København;3.6
+147;Frederiksberg;3
+155;Dragør;1.7
+185;Tårnby;2.1
+02;Landsdel Københavns omegn;2.9
+165;Albertslund;3.3
+151;Ballerup;2.4
+153;Brøndby;4.1
+157;Gentofte;2.2
+159;Gladsaxe;2.7
+161;Glostrup;3
+163;Herlev;2.3
+167;Hvidovre;2.8
+169;Høje-Taastrup;3.7
+183;Ishøj;4.9
+173;Lyngby-Taarbæk;2
+175;Rødovre;3.2
+187;Vallensbæk;2.8
+03;Landsdel Nordsjælland;1.9
+201;Allerød;1.5
+240;Egedal;1.7
+210;Fredensborg;1.9
+250;Frederikssund;1.9
+190;Furesø;1.9
+270;Gribskov;2
+260;Halsnæs;2.1
+217;Helsingør;2.5
+219;Hillerød;1.7
+223;Hørsholm;2.1
+230;Rudersdal;1.8
+04;Landsdel Bornholm;1.5
+400;Bornholm;1.5
+085;Region Sjælland;2.5
+05;Landsdel Østsjælland;2.1
+253;Greve;2.2
+259;Køge;2
+350;Lejre;2.1
+265;Roskilde;2.2
+269;Solrød;1.9
+06;Landsdel Vest- og Sydsjælland;2.7
+320;Faxe;2.6
+376;Guldborgsund;2.9
+316;Holbæk;2
+326;Kalundborg;2.3
+360;Lolland;3.5
+370;Næstved;2.7
+306;Odsherred;2.3
+329;Ringsted;2.5
+330;Slagelse;3
+340;Sorø;2.3
+336;Stevns;2.6
+390;Vordingborg;3
+083;Region Syddanmark;2.6
+07;Landsdel Fyn;3
+420;Assens;2.6
+430;Faaborg-Midtfyn;2.3
+440;Kerteminde;2.5
+482;Langeland;2.8
+410;Middelfart;2.1
+480;Nordfyns;2.5
+450;Nyborg;3.1
+461;Odense;3.7
+479;Svendborg;3
+492;Ærø;1.8
+08;Landsdel Sydjylland;2.3
+530;Billund;1.7
+561;Esbjerg;2.4
+563;Fanø;2.6
+607;Fredericia;2.8
+510;Haderslev;2.6
+621;Kolding;2.6
+540;Sønderborg;2.6
+550;Tønder;1.9
+573;Varde;1.6
+575;Vejen;2.1
+630;Vejle;2.4
+580;Aabenraa;2.2
+082;Region Midtjylland;2.6
+09;Landsdel Østjylland;2.9
+710;Favrskov;1.9
+766;Hedensted;1.9
+615;Horsens;2.6
+707;Norddjurs;2.6
+727;Odder;2.2
+730;Randers;3
+741;Samsø;2
+740;Silkeborg;2.2
+746;Skanderborg;1.9
+706;Syddjurs;2.5
+751;Aarhus;3.6
+10;Landsdel Vestjylland;2
+657;Herning;2.1
+661;Holstebro;1.7
+756;Ikast-Brande;2.2
+665;Lemvig;2
+760;Ringkøbing-Skjern;1.6
+779;Skive;1.7
+671;Struer;2.7
+791;Viborg;2.5
+081;Region Nordjylland;2.9
+11;Landsdel Nordjylland;2.9
+810;Brønderslev;2.6
+813;Frederikshavn;2.9
+860;Hjørring;2.5
+849;Jammerbugt;2.4
+825;Læsø;1.9
+846;Mariagerfjord;2.5
+773;Morsø;2.3
+840;Rebild;2.1
+787;Thisted;1.8
+820;Vesthimmerlands;2.6
+851;Aalborg;3.7
+998;Uoplyst kommune;0
+997;Udlandet;0
