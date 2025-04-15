@@ -1,0 +1,59 @@
+---
+title: "Dynamic map in R"
+format: html
+editor: visual
+---
+
+
+# A static map
+
+First we create a static map.
+
+```{r , warning=FALSE ,message=FALSE}
+# Load libraries
+library(tidyverse)
+library(sf)
+# Load some data with municipality data
+df<-read.csv("unedata.csv",sep=";")
+# Load shapefile
+dk_kom<-read_sf("KOMMUNE.shp")%>%
+        mutate(komcode=as.numeric(substr(KOMKODE,2,4)))
+# Merge
+df<-merge(df,dk_kom,by="komcode")
+# Create map
+  ggplot(df, aes(geometry=geometry))  +
+      geom_sf(aes(fill=unemployment))+
+    theme_void()
+  
+```
+
+# Dynamic map
+
+
+```{r , warning=FALSE ,message=FALSE}
+library("ggiraph")
+library(rmapshaper)
+df$geometry <- ms_simplify(df$geometry, keep = 0.05, keep_shapes = TRUE)
+df<-df%>%mutate(label=paste0(komname,": ",unemployment,"%"))
+gg_plt<-ggplot(df, aes(geometry=geometry))  +
+      geom_sf(aes(fill=unemployment))+
+    theme_void()+theme(legend.position = "none")+
+   geom_sf_interactive(
+    fill = NA, 
+    aes(
+      data_id = komcode,
+      tooltip = glue::glue('{label}')
+    ),
+    linewidth = 0.1
+  )
+ 
+ 
+girafe(
+  ggobj = gg_plt,
+  options = list(
+    opts_sizing(width =1),
+     opts_tooltip(use_fill = TRUE)
+  )
+)
+```
+
